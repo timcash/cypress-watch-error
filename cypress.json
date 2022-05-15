@@ -1,0 +1,6 @@
+{
+  "integrationFolder": "src",
+  "cypress-watch-and-reload": {
+    "watch": "src/*"
+  }
+}

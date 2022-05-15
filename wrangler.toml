@@ -1,0 +1,12 @@
+name = "dag"
+account_id = ""
+workers_dev = true
+compatibility_date = "2022-05-01"
+main = "./src/worker.ts"
+
+kv_namespaces = [ {binding = "NODES",id = "",preview_id = "" }]
+
+
+[[rules]]
+type = "ESModule"
+globs = [ "**/*.js" ]
